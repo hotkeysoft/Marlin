@@ -28,7 +28,7 @@
 
 ***********************************************************************/
 
-#define PRINTER_NAME "TDTEVO 1.45 TITAN.LEAD.BLTOUCH"  // Change this to whatever you wish, or leave it as it is.
+#define PRINTER_NAME "DTTEVO 1.47 TITAN.LEAD.BLTOUCH"  // Change this to whatever you wish, or leave it as it is.
                                                     // NOTE: Whatever you put here will have " Ready..." appended to it.
 
 /**
@@ -112,7 +112,7 @@
  * Number of grid points in each direction
  * Minimum 3. Maximum 15 for UBL. Maximum 7 for MANUAL
  */
-#define GRID_POINTS        3
+#define GRID_POINTS        5
 
 /**
  * Margin around perimiter of bed for probing (will not probe outside this margin)
@@ -270,7 +270,7 @@
  * Extra movement of Y axis. Can help with probing more of the bed.
  * Set both to 0 (zero) if you do not have a Z-Probe.
  */
-#define XTRA_BED_FRONT    0  // Distance bed can move towards the front past Y = 200 (Y=280 for large bed)
+#define XTRA_BED_FRONT    10  // Distance bed can move towards the front past Y = 200 (Y=280 for large bed)
 #define XTRA_BED_BACK     0  // Distance bed can move towards the back past Y = 0
 
 /**
